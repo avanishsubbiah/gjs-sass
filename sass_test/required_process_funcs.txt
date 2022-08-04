@@ -1,0 +1,11 @@
+get$platform$x
+get$env$x
+self.process.stdout.isTTY
+get$stdin$x
+J.set$exitCode$x
+J.get$exitCode$x
+J.get$isTTY$x(self.process.stdin)
+self.process.stdout
+self.process.stdin
+write$1$x(self.process.stdout, t3.prompt)
+J.get$stderr$x(self.process)
