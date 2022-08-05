@@ -2,7 +2,7 @@ import * as fs from 'fs';
 
 export class sussyfs {
     static readFileSync(path, encoding) {
-        console.log(encoding);
+        // console.log(encoding);
         return fs.readFileSync(path, encoding);
     }
     static writeFileSync(path, contents) {
@@ -21,7 +21,7 @@ export class sussyfs {
     //    return fs.readdirSync(path);
     //}
     static statSync(path) {
-	console.log(fs.statSync(path));
+	// console.log(fs.statSync(path));
         return fs.statSync(path);
     }
     static mkdirSync(path) {

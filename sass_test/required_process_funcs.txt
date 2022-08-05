@@ -1,5 +1,5 @@
-get$platform$x
-get$env$x
+get$platform$x -> "linux"
+get$env$x -> {}
 self.process.stdout.isTTY
 get$stdin$x
 J.set$exitCode$x
